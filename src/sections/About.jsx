@@ -10,7 +10,7 @@ function About() {
         <div className="w-64 h-64 mx-auto overflow-hidden rounded-full">
           <img src={profile} alt="me" />
         </div>
-        <h2 className="text-6xl py-1 text-indigo-500 font-medium">
+        <h2 className="lg:text-6xl md: text-4xl sm:text-2xl py-1 text-indigo-500 font-medium font-rocksalt">
           Himanshu Jain
         </h2>
         <h3 className="text-3xl italic">Software Engineer</h3>
