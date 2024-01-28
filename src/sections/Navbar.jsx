@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 p-1 bg-zinc-50 shadow-sm">
       <div className="flex justify-between">
-        <p className="pt-1 m-2 items-center lg:text-3xl md:text-xl sm:text-sm font-rocksalt text-gray-500 sm:mt-0">
+        <p className="pt-1 m-2 items-center lg:text-3xl md:text-xl sm:text-xs font-rocksalt text-gray-500 sm:mt-0">
           Himanshu Jain
         </p>
         <ul className="flex flex-wrap lg:gap-10 md:gap-4 sm:gap-1 justify-end items-center mt-2 text-sm font-medium text-gray-500 sm:mt-0 sm:text-xs">
