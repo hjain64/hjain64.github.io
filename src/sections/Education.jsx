@@ -22,7 +22,7 @@ function Career() {
   ];
 
   return (
-    <section id="education">
+    <section id="education" className="scroll-mt-16">
       <div className="py-4 max-w-3xl mx-auto">
         <div className="-my-2">
           <div className="relative pl-8 sm:pl-32 py-3 group">

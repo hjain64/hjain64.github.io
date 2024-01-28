@@ -9,7 +9,7 @@ function Project() {
   return (
     <div
       id="projects"
-      className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full scroll-m-16"
     >
       <section className="w-full">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-6">
