@@ -11,11 +11,11 @@ function About() {
           <div className="w-64 h-64 mx-auto overflow-hidden rounded-full">
             <img src={profile} alt="me" />
           </div>
-          <h2 className="lg:text-6xl md: text-4xl sm:text-2xl py-1 text-indigo-500 font-medium font-rocksalt">
+          <h2 className="text-5xl py-1 text-indigo-500 font-medium font-rocksalt">
             Himanshu Jain
           </h2>
           <h3 className="text-3xl italic">Software Engineer</h3>
-          <p className="text-gray-600 text-xl max-w-sm mx-auto">
+          <p className="text-gray-600 lg:text-xl md:text-lg sm:text-base max-w-md mx-auto">
             Experienced Software Engineer with a knack for turning ideas into
             efficient and scalable solutions. From coding to deployment, I bring
             a proven track record in software development. Explore my portfolio
