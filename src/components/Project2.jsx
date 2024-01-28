@@ -1,4 +1,4 @@
-import Maze from "../assets/Maze.png";
+import Maze from "../assets/maze.png";
 import Buttons from "./Buttons";
 
 function Project2() {
