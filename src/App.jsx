@@ -8,10 +8,10 @@ import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [section1Ref, section1InView] = useInView({ threshold: 0.5 });
-  const [section2Ref, section2InView] = useInView({ threshold: 0.5 });
-  const [section3Ref, section3InView] = useInView({ threshold: 0.5 });
-  const [section4Ref, section4InView] = useInView({ threshold: 0.5 });
+  const [section1Ref, section1InView] = useInView({ threshold: 0.2 });
+  const [section2Ref, section2InView] = useInView({ threshold: 0.2 });
+  const [section3Ref, section3InView] = useInView({ threshold: 0.2 });
+  const [section4Ref, section4InView] = useInView({ threshold: 0.2 });
 
   const [section, setSection] = useState(1);
 
