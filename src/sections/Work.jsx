@@ -6,7 +6,7 @@ import WorkTechStack from "../components/WorkTechStack";
 import ResearchTechStack from "../components/ResearchStack";
 import C1TechStack from "../components/C1TechStack";
 
-function Work() {
+function Work({ innerRef }) {
   const courseWorks = [
     "Artificial Intelligence",
     "Operating Systems",
@@ -25,7 +25,7 @@ function Work() {
   ];
 
   return (
-    <section id="work" className="scroll-mt-16">
+    <section ref={innerRef} id="work" className="scroll-mt-16">
       <div className="py-4 max-w-3xl mx-auto">
         <div className="-my-2">
           <div className="relative pl-8 sm:pl-32 py-3 group">

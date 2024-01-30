@@ -1,11 +1,10 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
-
 import profile from "../assets/my-pic-2.png";
 
-function About() {
+function About({ innerRef }) {
   return (
-    <section id="about" className="scroll-m-9">
+    <section ref={innerRef} id="about" className="scroll-m-9">
       <div className="h-screen w-full text-center">
         <div className="max-w-screen-xl mx-auto w-full h-full pt-14 p-4 flex flex-col justify-around items-center">
           <div className="w-64 h-64 mx-auto overflow-hidden rounded-full">

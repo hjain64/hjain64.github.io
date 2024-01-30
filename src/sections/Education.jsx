@@ -3,7 +3,7 @@ import { IoBookSharp } from "react-icons/io5";
 import { SiIeee, SiAcm, SiLinux } from "react-icons/si";
 import { GiLion } from "react-icons/gi";
 
-function Career() {
+function Career({ innerRef }) {
   const courseWorks = [
     "Artificial Intelligence",
     "Operating Systems",
@@ -22,7 +22,7 @@ function Career() {
   ];
 
   return (
-    <section id="education" className="scroll-mt-16">
+    <section ref={innerRef} id="education" className="scroll-mt-16">
       <div className="py-4 max-w-3xl mx-auto">
         <div className="-my-2">
           <div className="relative pl-8 sm:pl-32 py-3 group">
