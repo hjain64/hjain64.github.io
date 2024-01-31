@@ -40,7 +40,7 @@ function Project4() {
         <div className="w-32 py-3 flex justify-end">
           <Buttons
             name="Github"
-            href="https://github.com/hjain64/trucking_website"
+            href="https://github.com/jainmanshu/trucking_website"
           />
         </div>
       </div>

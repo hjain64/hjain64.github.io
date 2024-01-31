@@ -8,7 +8,7 @@ function Footer() {
       <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
           <a
-            href="https://linkedin.com/in/hjain64"
+            href="https://linkedin.com/in/jainmanshu"
             className="hover:underline me-4 md:me-6"
           >
             LinkedIn
@@ -16,7 +16,15 @@ function Footer() {
         </li>
         <li>
           <a
-            href="https://github.com/hjain64"
+            href="https://medium.com/@jainmanshu"
+            className="hover:underline me-4 md:me-6"
+          >
+            Medium
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/jainmanshu"
             className="hover:underline me-4 md:me-6"
           >
             Github

@@ -35,7 +35,7 @@ function Project2() {
         <div className="w-32 py-3 flex justify-end">
           <Buttons
             name="Github"
-            href="https://github.com/hjain64/AI-Maze-Solver"
+            href="https://github.com/jainmanshu/AI-Maze-Solver"
           />
         </div>
       </div>

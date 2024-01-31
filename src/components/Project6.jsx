@@ -27,7 +27,7 @@ function Project6() {
         <div className="w-32 py-1 flex justify-end">
           <Buttons
             name="Github"
-            href="https://github.com/hjain64/AdventOfCode"
+            href="https://github.com/jainmanshu/AdventOfCode"
           />
         </div>
       </div>

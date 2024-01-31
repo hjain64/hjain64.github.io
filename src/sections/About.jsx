@@ -1,5 +1,6 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
+import { RiMediumLine } from "react-icons/ri";
 import profile from "../assets/my-pic-2.png";
 
 function About({ innerRef }) {
@@ -23,14 +24,21 @@ function About({ innerRef }) {
           <div className="text-5xl flex justify-center gap-16 py-4 text-gray-600">
             <a
               target="_blank"
-              href="https://linkedin.com/in/hjain64"
+              href="https://linkedin.com/in/jainmanshu"
               className="hover:underline me-4 md:me-6"
             >
               <AiFillLinkedin />
             </a>
             <a
               target="_blank"
-              href="https://github.com/hjain64"
+              href="https://medium.com/@jainmanshu"
+              className="hover:underline me-4 md:me-6"
+            >
+              <RiMediumLine />
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/jainmanshu"
               className="hover:underline me-4 md:me-6"
             >
               <AiFillGithub />

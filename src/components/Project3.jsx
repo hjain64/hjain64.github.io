@@ -45,7 +45,7 @@ function Project3() {
         <div className="w-32 py-3 flex justify-end">
           <Buttons
             name="Github"
-            href="https://github.com/hjain64/Zombie-Defender-Game-Mobile-App"
+            href="https://github.com/jainmanshu/Zombie-Defender-Game-Mobile-App"
           />
         </div>
       </div>

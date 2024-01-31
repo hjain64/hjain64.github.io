@@ -30,7 +30,7 @@ function Project5() {
         <div className="w-32 py-3 flex justify-end">
           <Buttons
             name="Github"
-            href="https://github.com/hjain64/CDAL-Language-Translator"
+            href="https://github.com/jainmanshu/CDAL-Language-Translator"
           />
         </div>
       </div>
