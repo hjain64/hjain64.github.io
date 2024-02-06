@@ -24,7 +24,7 @@ function Project5() {
           <img
             width={36}
             height={36}
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
           />
         </div>
         <div className="w-32 py-3 flex justify-end">
