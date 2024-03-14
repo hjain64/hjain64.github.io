@@ -21,7 +21,7 @@ function About({ innerRef }) {
             a proven track record in software development. Explore my portfolio
             to see how I bring innovation to every line of code.
           </p>
-          <div className="text-5xl flex justify-center gap-16 py-4 text-gray-600">
+          <div className="text-5xl flex justify-center lg:gap-16 md:gap-12 sm:gap-8 py-4 text-gray-600">
             <a
               target="_blank"
               href="https://linkedin.com/in/jainmanshu"
