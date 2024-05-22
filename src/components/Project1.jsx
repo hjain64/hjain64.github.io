@@ -23,7 +23,7 @@ function Project1() {
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
       <div className="py-2 mx-2 flex flex-row justify-between">
         <ResearchTechStack size={32} />
-        <div className="w-32 py-3 flex justify-end">
+        <div className="w-32 py-1 flex flex-col justify-end gap-3 items-center">
           <Buttons name="Github" href="https://github.com/tituslabumn/Seven" />
         </div>
       </div>

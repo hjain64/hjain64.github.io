@@ -32,7 +32,7 @@ function Project2() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/thealgorithms/thealgorithms-plain-wordmark.svg"
           />
         </div>
-        <div className="w-32 py-3 flex justify-end">
+        <div className="w-32 py-1 flex flex-col justify-end gap-3 items-center">
           <Buttons
             name="Github"
             href="https://github.com/jainmanshu/AI-Maze-Solver"

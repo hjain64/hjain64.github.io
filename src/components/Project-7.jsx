@@ -21,7 +21,7 @@ function Project7() {
       </p>
       {/* tech-logo-1, tech-logo-2  ............... "View on Github"*/}
       <hr className="mt-2 h-0.5 border-t-0 bg-neutral-300 opacity-100" />
-      <div className="py-2 mx-2 flex flex-row justify-between">
+      <div className="py-2 mx-2 flex flex-row justify-between items-center ">
         <div className="flex flex-wrap gap-3 py-1">
           <img
             width={48}
@@ -40,8 +40,8 @@ function Project7() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg"
           />
         </div>
-        <div className="w-32 py-1 flex justify-end gap-1 items-center">
-          {/* <Buttons name="Demo" href="https://fast-search-tau.vercel.app/" /> */}
+        <div className="w-32 py-1 flex flex-col justify-end gap-3 items-center">
+          <Buttons name="Demo" href="https://fast-search-tau.vercel.app/" />
           <Buttons
             name="Github"
             href="https://github.com/jainmanshu/fast-search"
