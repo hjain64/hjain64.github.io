@@ -23,7 +23,7 @@ function App() {
   }, [section1InView, section2InView, section3InView, section4InView]);
 
   return (
-    <div>
+    <div className="grainy">
       <Navbar section={section} />
       <About innerRef={section1Ref} />
       <Education innerRef={section2Ref} />
