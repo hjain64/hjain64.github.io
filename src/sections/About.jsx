@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { SiGmail } from "react-icons/si";
 import { RiMediumLine } from "react-icons/ri";
+import { SiGmail } from "react-icons/si";
 import profile from "../assets/my-pic-2.png";
 
 function About({ innerRef }) {
@@ -18,8 +18,8 @@ function About({ innerRef }) {
           <p className="text-gray-600 lg:text-xl md:text-lg sm:text-base max-w-md mx-auto">
             Experienced Software Engineer with a knack for turning ideas into
             efficient and scalable solutions. From coding to deployment, I bring
-            a proven track record in software development. Explore my portfolio
-            to see how I bring innovation to every line of code.
+            a proven track record in software development. Check out my
+            portfolio to see what I've been up to lately.
           </p>
           <div className="text-5xl flex justify-center lg:gap-16 md:gap-12 sm:gap-8 py-4 text-gray-600">
             <a

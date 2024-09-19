@@ -1,4 +1,3 @@
-import elastic from "../assets/elastic.png";
 import leaderboard from "../assets/leaderboard.png";
 import Buttons from "./Buttons";
 

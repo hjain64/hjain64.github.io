@@ -1,4 +1,4 @@
-import resume from "../resume/Resume.pdf";
+// import resume from "../resume/Resume.pdf";
 
 function Navbar({ section }) {
   return (
@@ -48,7 +48,7 @@ function Navbar({ section }) {
               Projects
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               target="_blank"
               href={resume}
@@ -56,7 +56,7 @@ function Navbar({ section }) {
             >
               Resume
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </header>
