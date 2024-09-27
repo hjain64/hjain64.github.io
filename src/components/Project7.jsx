@@ -1,6 +1,6 @@
+import elastic from "../assets/elastic.png";
 import fastSearch from "../assets/fast-search.png";
 import Buttons from "./Buttons";
-import elastic from "../assets/elastic.png";
 
 function Project7() {
   return (
@@ -35,8 +35,8 @@ function Project7() {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
           />
           <img
-            width={48}
-            height={48}
+            width={42}
+            height={42}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg"
           />
         </div>

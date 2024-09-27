@@ -22,34 +22,34 @@ function Project8() {
       <div className="py-2 mx-2 flex flex-row justify-between items-center ">
         <div className="flex flex-wrap gap-3 py-1">
           <img
-            width={48}
-            height={48}
+            width={42}
+            height={42}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
           />
           <img
-            width={48}
-            height={48}
+            width={42}
+            height={42}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
           />
           <img
-            width={48}
-            height={48}
+            width={42}
+            height={42}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg"
           />
           <img
-            width={48}
-            height={48}
+            width={42}
+            height={42}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
           />
           <img
-            width={48}
-            height={48}
+            width={42}
+            height={42}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
           />
         </div>
-        <div className="w-36 py-1 flex flex-col justify-end gap-3 items-center">
+        <div className="w-36 py-1 flex flex-col gap-2 items-center">
           <Buttons
-            name="Chrome store"
+            name="Chromestore"
             href="https://chromewebstore.google.com/detail/paris-olympics-2024-stats/dfdcmllfkdjklbcefknhalbcmbgmlcnf"
           />
           <Buttons

@@ -25,11 +25,11 @@ function Project9() {
             height={48}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
           />
-          <img
-            width={56}
-            height={56}
+          {/* <img
+            width={36}
+            height={36}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
-          />
+          /> */}
           <img
             width={42}
             height={42}

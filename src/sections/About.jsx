@@ -1,8 +1,9 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { RiMediumLine } from "react-icons/ri";
+import { FaMedium } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import profile from "../assets/my-pic-2.png";
 
+// eslint-disable-next-line react/prop-types
 function About({ innerRef }) {
   return (
     <section ref={innerRef} id="about" className="scroll-m-9">
@@ -19,13 +20,14 @@ function About({ innerRef }) {
             Experienced Software Engineer with a knack for turning ideas into
             efficient and scalable solutions. From coding to deployment, I bring
             a proven track record in software development. Check out my
-            portfolio to see what I've been up to lately.
+            portfolio to see what I&apos;ve been up to lately.
           </p>
           <div className="text-5xl flex justify-center lg:gap-16 md:gap-12 sm:gap-8 py-4 text-gray-600">
             <a
               target="_blank"
               href="https://linkedin.com/in/jainmanshu"
               className="hover:underline me-4 md:me-6"
+              rel="noreferrer"
             >
               <AiFillLinkedin />
             </a>
@@ -33,13 +35,15 @@ function About({ innerRef }) {
               target="_blank"
               href="https://medium.com/@jainmanshu"
               className="hover:underline me-4 md:me-6"
+              rel="noreferrer"
             >
-              <RiMediumLine />
+              <FaMedium />
             </a>
             <a
               target="_blank"
               href="https://github.com/jainmanshu"
               className="hover:underline me-4 md:me-6"
+              rel="noreferrer"
             >
               <AiFillGithub />
             </a>
