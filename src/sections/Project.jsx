@@ -12,11 +12,10 @@ import Project9 from "../components/Project9";
 function Project({ innerRef }) {
   return (
     <div
-      ref={innerRef}
       id="projects"
       className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full scroll-m-16"
     >
-      <section className="w-full">
+      <section ref={innerRef} className="w-full">
         <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
           <Project9 />
           <Project8 />

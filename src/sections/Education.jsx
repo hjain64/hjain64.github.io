@@ -41,7 +41,7 @@ function Career({ innerRef }) {
             </div>
             <div>
               <div className="italic text-slate-700 ml-2 font-medium">
-                Bachelor's of Science, Computer Science
+                Bachelor&apos;s of Science, Computer Science
               </div>
               <div className="flex flex-wrap gap-2 pl-4 pt-2">
                 <div className="relative grid select-none items-center whitespace-nowrap rounded-lg border border-gray-900 py-1.5 px-3 font-sans text-xs/[8px] font-bold uppercase text-gray-700">
@@ -82,7 +82,7 @@ function Career({ innerRef }) {
             </div>
             <div>
               <div className="italic text-slate-700 font-medium ml-2">
-                Bachelor's of Science, Computer Science
+                Bachelor&apos;s of Science, Computer Science
               </div>
               <div className="flex flex-wrap gap-2 pl-4 pt-2">
                 <div className="relative grid select-none items-center whitespace-nowrap rounded-lg border border-gray-900 py-1.5 px-3 font-sans text-xs/[8px] font-bold uppercase text-gray-700">

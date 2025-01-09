@@ -1,17 +1,17 @@
-import Navbar from "./sections/Navbar";
+import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 import About from "./sections/About";
 import Education from "./sections/Education";
-import Work from "./sections/Work";
-import Project from "./sections/Project";
 import Footer from "./sections/Footer";
-import { useInView } from "react-intersection-observer";
-import { useEffect, useState } from "react";
+import Navbar from "./sections/Navbar";
+import Project from "./sections/Project";
+import Work from "./sections/Work";
 
 function App() {
   const [section1Ref, section1InView] = useInView({ threshold: 0.2 });
   const [section2Ref, section2InView] = useInView({ threshold: 0.2 });
   const [section3Ref, section3InView] = useInView({ threshold: 0.2 });
-  const [section4Ref, section4InView] = useInView({ threshold: 0.2 });
+  const [section4Ref, section4InView] = useInView({ threshold: 0.1 });
 
   const [section, setSection] = useState(1);
 
