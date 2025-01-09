@@ -1,7 +1,7 @@
-import Chips from "../components/Chips";
-import { IoBookSharp } from "react-icons/io5";
-import { SiIeee, SiAcm, SiLinux } from "react-icons/si";
 import { GiLion } from "react-icons/gi";
+import { IoBookSharp } from "react-icons/io5";
+import { SiAcm, SiIeee, SiLinux } from "react-icons/si";
+import Chips from "../components/Chips";
 
 // eslint-disable-next-line react/prop-types
 function Career({ innerRef }) {
