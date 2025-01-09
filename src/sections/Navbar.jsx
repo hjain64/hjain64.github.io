@@ -1,5 +1,6 @@
 // import resume from "../resume/Resume.pdf";
 
+// eslint-disable-next-line react/prop-types
 function Navbar({ section }) {
   return (
     <header className="sticky top-0 z-50 p-1 bg-zinc-50 shadow-sm">

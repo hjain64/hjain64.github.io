@@ -1,33 +1,35 @@
-import Chips from "../components/Chips";
-import { IoBookSharp } from "react-icons/io5";
-import { SiIeee, SiAcm, SiLinux } from "react-icons/si";
-import { GiLion } from "react-icons/gi";
-import WorkTechStack from "../components/WorkTechStack";
-import ResearchTechStack from "../components/ResearchStack";
 import C1TechStack from "../components/C1TechStack";
+import ResearchTechStack from "../components/ResearchStack";
+import WorkTechStack from "../components/WorkTechStack";
 
+// eslint-disable-next-line react/prop-types
 function Work({ innerRef }) {
-  const courseWorks = [
-    "Artificial Intelligence",
-    "Operating Systems",
-    "Internet Programming",
-    "Advanced Programming",
-    "Language Processors",
-    "Software Engineering Principles.",
-  ];
-
-  const courseWorks2 = [
-    "Computer Architecture",
-    "Data Structures",
-    "Design & Analysis of Algorithms",
-    "Object Oriented Programming",
-    "Database Management System",
-  ];
-
   return (
     <section ref={innerRef} id="work" className="scroll-mt-16">
       <div className="py-4 max-w-3xl mx-auto">
         <div className="-my-2">
+          <div className="relative pl-8 sm:pl-32 py-3 group">
+            <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
+              Best Buy
+              <div className="font-caveat font-medium text-sm ml-1">
+                Richfield, Minnesota, USA
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+              <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+                Oct 2024 - Present
+              </div>
+              <div className="text-xl font-bold text-slate-900"></div>
+            </div>
+            <div>
+              <div className="italic font-bold text-slate-600 ml-2">
+                Sr. Full Stack Engineer
+              </div>
+              <ul className="list-disc text-sm text-slate-700 ml-5">
+                <li>Personalization & Discovery Mobile Apps teams.</li>
+              </ul>
+            </div>
+          </div>
           <div className="relative pl-8 sm:pl-32 py-3 group">
             <div className="font-caveat font-semibold text-2xl text-indigo-500 mb-1 sm:mb-0">
               Trimble Inc.
@@ -36,8 +38,8 @@ function Work({ innerRef }) {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-              <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
-                Jun 2018 - Present
+              <div className="sm:absolute lg:-ml-10 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+                Jan 2018 - Mar 2024
               </div>
               <div className="text-xl font-bold text-slate-900"></div>
             </div>
@@ -66,7 +68,7 @@ function Work({ innerRef }) {
                 <li>
                   Owned and developed Node microservices using PostgreSQL as
                   database, Kafka for event streaming, Redis for caching,
-                  Elasticsearch for document store , Docker/Kubernetes for
+                  Elasticsearch for document store, Docker/Kubernetes for
                   containerization and AWS for reliability and scalability.
                 </li>
                 <li>
@@ -87,7 +89,7 @@ function Work({ innerRef }) {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-              <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+              <div className="sm:absolute lg:-ml-10 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
                 Jan 2018 - May 2018
               </div>
               <div className="text-xl font-bold text-slate-900"></div>
@@ -121,7 +123,7 @@ function Work({ innerRef }) {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-              <div className="sm:absolute lg:-ml-8 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+              <div className="sm:absolute lg:-ml-10 left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
                 May 2017 - Aug 2017
               </div>
               <div className="text-xl font-bold text-slate-900"></div>
@@ -155,7 +157,7 @@ function Work({ innerRef }) {
               </div>
             </div>
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-slate-50 after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-              <time className="sm:absolute left-0 lg:-ml-8 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+              <time className="sm:absolute left-0 lg:-ml-10 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-25 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
                 Jan 2017 - Apr 2017
               </time>
               <div className="text-xl font-bold text-slate-900"></div>

@@ -16,11 +16,13 @@ function About({ innerRef }) {
             Himanshu Jain
           </h2>
           <h3 className="text-3xl italic">Software Engineer</h3>
-          <p className="text-gray-600 lg:text-xl md:text-lg sm:text-base max-w-md mx-auto">
-            Experienced Software Engineer with a knack for turning ideas into
-            efficient and scalable solutions. From coding to deployment, I bring
-            a proven track record in software development. Check out my
-            portfolio to see what I&apos;ve been up to lately.
+          <p className="text-gray-600 lg:text-xl md:text-lg sm:text-base max-w-xl mx-auto">
+            Experienced Software Engineer with a passion for transforming ideas
+            into efficient, scalable, and user-friendly solutions. From concept
+            to deployment, I bring a proven track record of delivering impactful
+            software by solving complex problems, crafting intuitive designs,
+            and leveraging modern technologies. Let’s create something
+            extraordinary together!
           </p>
           <div className="text-5xl flex justify-center lg:gap-16 md:gap-12 sm:gap-8 py-4 text-gray-600">
             <a

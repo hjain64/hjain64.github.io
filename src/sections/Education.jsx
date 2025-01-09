@@ -3,6 +3,7 @@ import { IoBookSharp } from "react-icons/io5";
 import { SiIeee, SiAcm, SiLinux } from "react-icons/si";
 import { GiLion } from "react-icons/gi";
 
+// eslint-disable-next-line react/prop-types
 function Career({ innerRef }) {
   const courseWorks = [
     "Artificial Intelligence",

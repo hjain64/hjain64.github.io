@@ -8,6 +8,7 @@ import Project7 from "../components/Project7";
 import Project8 from "../components/Project8";
 import Project9 from "../components/Project9";
 
+// eslint-disable-next-line react/prop-types
 function Project({ innerRef }) {
   return (
     <div
