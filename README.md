@@ -1,4 +1,4 @@
-# jainmanshu@github.io
+# [manshu.dev](https://manshu.dev/)
 
 Portfolio website built with Vite, React and TailwindCSS.
 
